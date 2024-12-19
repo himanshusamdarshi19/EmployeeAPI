@@ -1,0 +1,21 @@
+{
+  "name": "bd6.6_cw",
+  "version": "1.0.0",
+  "description": "BD6.6_CW ",
+  "main": "server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Himanshu",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jest": "^29.7.0",
+    "node": "^23.4.0",
+    "supertest": "^7.0.0"
+  }
+}
