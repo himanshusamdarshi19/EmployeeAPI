@@ -6,6 +6,7 @@ const { app } = require("../index");
 jest.mock("../controllers", () => ({
   ...jest.requireActual("../controllers"),
   getAllEmployees: jest.fn(),
+  getEmployeeById: jest.fn(),
 }));
 
 let server;
